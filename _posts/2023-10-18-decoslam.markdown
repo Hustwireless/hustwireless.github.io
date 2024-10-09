@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Decentralized Collaborative SLAM with Map Reuse"
+date:   2023-11-22 22:21:59 +00:00
+image: /images/decoslam.png
+categories: ETHz
+author: "Yuan Jiang"
+course: "Master Thesis"
+---
+Supervised by Dr. Marco Karrer, David Hug, and Prof. Dr. Margarita Chli. We integrated decentralized Pose Graph Optimization into the existing Decentralized Collaborative SLAM system, which features map reuse.
