@@ -3,8 +3,7 @@ layout: post
 title:  "Learning Recovery Behaviour in Cluttered Environments"
 date:   2022-07-25 22:21:59 +00:00
 image: /images/recovery.gif
-categories: Thesis
+categories: Semester Thesis
 author: "Yuan Jiang"
-course: "Semester Project"
 ---
 Supervised by Joonho Lee and Miki Takahiro. We applied privileged learning framework to train a robust recovery controller for quadrupedal robot that recovers in cluttered environments upon falling. The policy was deployed on Anymal C.
