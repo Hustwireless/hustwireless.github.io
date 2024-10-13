@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Robotic Ball Balancing System"
-date:   2023-12-13 22:21:59 +00:00
+date:   2021-05-19 22:21:59 +00:00
 image: /images/irm.gif
 categories: Course
 author: "Yuan Jiang"
