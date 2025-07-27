@@ -5,6 +5,7 @@ date:   2023-12-13 22:21:59 +00:00
 image: /images/snaphand.gif
 categories: Course
 author: "Yuan Jiang"
-course: "Real World Robotics 2023"
+course: "Real World Robotics"
+place: "ETH Zürich"
 ---
 We designed and built a low cost tendon driven biomimetic robotic hand from scratch. The novel snap-fit pin joint enables easy installation and safety measures. The robotic hand also has vision-based teleoperation and RL-based ball rolling capabilities.

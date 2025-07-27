@@ -6,5 +6,6 @@ image: /images/decoslam.png
 categories: Thesis
 author: "Yuan Jiang"
 course: "Master Thesis"
+place: "ETH Zürich"
 ---
 Supervised by Dr. Marco Karrer, David Hug, and Prof. Dr. Margarita Chli. We integrated decentralized Pose Graph Optimization into the existing Decentralized Collaborative SLAM system, which features map reuse.
