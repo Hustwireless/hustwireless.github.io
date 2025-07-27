@@ -8,4 +8,4 @@ author: "Yuan Jiang"
 course: "Introduction to Robotics and Mechatronics"
 place: "ETH Zürich"
 ---
-Controlling a simple robotic ball balancing system using PID controller based on Featherboard.
+Wrote a PID controller for a robotic ball balancing system with 3 degree of freedom based on Featherboard.

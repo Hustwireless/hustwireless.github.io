@@ -8,4 +8,4 @@ author: "Yuan Jiang"
 course: "Semester Thesis"
 place: "ETH Zürich"
 ---
-Supervised by Joonho Lee and Miki Takahiro. We applied privileged learning framework to train a robust recovery controller for quadrupedal robot that recovers in cluttered environments upon falling. The policy was deployed on Anymal C.
+Supervised by Joonho Lee and Takahiro Miki. We applied privileged learning framework to train a robust recovery controller for quadrupedal robot that recovers in cluttered environments upon falling. The policy was deployed on the robot Anymal C.

@@ -8,4 +8,4 @@ author: "Yuan Jiang"
 course: "Vision Based Drone Flight"
 place: "ETH Zürich"
 ---
-We trained a state-based DRL drone tracking policy and deployed on the hardware.
+We trained a state-based deep reinforcement learning policy that enables a drone to track another flying drone.
