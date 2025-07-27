@@ -25,16 +25,22 @@
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
-              <h1>
+              <p class="name" style="text-align: left;">
                 Yuan Jiang
-              </h1>
-              <p>I am a master student studying Robotics, Systems and Control at the <a href="https://www.iris.ethz.ch/">ETH Zürich</a>, where I worked on multi-agent VSLAM with Dr. Marco Karrer, and David Hug, supervised by <a href="https://v4rl.com/">Prof. Dr. Margarita Chli</a>. I've also worked on Reinforcement Learning for Robotics in several projects. I obtained my bachelor's degree in Mechanical Engineering from <a href="http://english.mse.hust.edu.cn/">HUST</a>, where I did my thesis in <a href="https://sites.google.com/view/xinyang/home">Medical Image Analysis and Augmented Reality Group</a>, supervised by Prof. Dr. Xin Yang.
+              </p>
+              <p>I did my Master's in Robotics, Systems and Control at <a href="https://www.iris.ethz.ch/">ETH Zürich</a>, where I worked on a variety of projects in the topics of computer vision, robotic hand, and learning robot control. My master's thesis on multi-agent VSLAM was supervised by Dr. Marco Karrer, David Hug, and <a href="https://v4rl.com/">Prof. Dr. Margarita Chli</a>. I've worked on Reinforcement Learning for Robotics in several projects as well.
+              </p>
+              <p>
+                I also had the chance to work at BMW Munich on 6D Pose Estimation pipelines to automate internal logistics for BMW factory's sequencing process.
+              </p>
+              <p>
+                I obtained my Bachelor's degree in Mechanical Engineering from <a href="http://english.mse.hust.edu.cn/">HUST</a>, where I did my thesis in <a href="https://sites.google.com/view/xinyang/home">Medical Image Analysis and Augmented Reality Group</a>, supervised by Prof. Dr. Xin Yang.
               </p>
               <p style="text-align:center">
                 <!-- <a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp; -->
@@ -44,7 +50,7 @@
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/figure.png">
+              <img style="width:80%;max-width:80%;object-fit: cover; border-radius: 6%;" alt="profile photo" src="images/figure.png">
             </td>
           </tr>
         </table>
@@ -113,8 +119,6 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Thesis</h2>
-              <p> I'm interested in computer vision and robotics.
-              </p>
             </td>
           </tr>
         </table>
@@ -124,16 +128,13 @@
           {% for cat in post.categories %}
           {% if cat == 'Thesis' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+            <td style="padding:0px;width:35%;vertical-align:middle;min-width:120px">
               <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
+            <td style="padding:20px;width:65%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              <em>{{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
+              <em>{{post.course}}, {{post.place}}, {{ post.date | date: "%Y" }}</em>
               <br>
               {% if post.website %}
               <a href="{{post.website}}">website</a> /
@@ -181,8 +182,6 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Projects</h2>
-              <p> These include thesis projects, coursework, and side projects.
-              </p>
             </td>
           </tr>
         </table>
@@ -192,16 +191,13 @@
           {% for cat in post.categories %}
           {% if cat != 'Thesis' and cat != 'Research' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+            <td style="padding:0px;width:35%;vertical-align:middle;min-width:120px">
               <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
+            <td style="padding:20px;width:65%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
+              <em>{{post.course}}, {{post.place}}, {{ post.date | date: "%Y" }}</em>
               <br>
               {% if post.website %}
               <a href="{{post.website}}">website</a> /
